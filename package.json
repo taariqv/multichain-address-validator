@@ -330,8 +330,7 @@
     },
     "engineStrict": true,
     "scripts": {
-        "build": "tsc",
-        "bundle": "tsx config/esbuild.ts",
+        "build": "tsx config/esbuild.ts",
         "test": "mocha --import=tsx test/**.test.ts",
         "start": "npm run build && npm run bundle && npm test"
     },
